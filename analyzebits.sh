@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #Copyright 2014@Santosh Dwivedi, All Rights Reserved.
 #The code contained herein is licensed under the GNU General Public
 #License. You may obtain a copy of the GNU General Public License
@@ -5,7 +7,7 @@
 # http://www.opensource.org/licenses/gpl-license.html
 # http://www.gnu.org/copyleft/gpl.html
 
-#!/bin/bash
+
 # This script is to define and decode cpu register bits.
 Configure() {
 OUTPUT=$(zenity --forms --title="Configure register" --text="cpu register" --add-entry="name") 
